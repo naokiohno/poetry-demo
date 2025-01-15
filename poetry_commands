@@ -1,0 +1,13 @@
+
+# Create new poject
+poetry new <project name>
+
+# Add new libraries of fix python version
+# Edit the .toml file.
+
+
+# Create virtual environment with specified dependencies
+poetry install
+
+# Overwrite lock file when change is made to the configuration
+poetry lock
